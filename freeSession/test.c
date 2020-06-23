@@ -1,6 +1,9 @@
 #include <stdio.h>
 
-void main()
+int main()
 {
-    printf("Hello");
+    char a[100];
+    printf("Hello Teckat");
+    scanf(a);
+    printf(a);
 }

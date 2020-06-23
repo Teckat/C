@@ -1,6 +1,10 @@
 #include <iostream>
+using namespace std;
+
 int main()
 {
-    std::cout << "hello";
-    return 0;
+    char a[100];
+    cout << "Enter Name";
+    cin >> a;
+    cout << a;
 }
