@@ -33,16 +33,36 @@
 // increment
 // }
 
+// int main()
+// {
+
+//     int i = 1;
+
+//     while (i <= 15)
+//     {
+//         printf("%d \n", i);
+//         i++;
+//     }
+
+//     return (0);
+// }
+
+//  3. do-while
+
+//  do{
+
+// code
+
+// }while(condition);
+
 int main()
 {
-
     int i = 1;
-
-    while (i <= 15)
+    do
     {
         printf("%d \n", i);
         i++;
-    }
+    } while (i <= 15);
 
     return (0);
 }
