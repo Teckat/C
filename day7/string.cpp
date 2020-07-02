@@ -116,28 +116,29 @@ using namespace std;
 
 //  reversing string
 
-void strrev1(char a[])
-{
-    char b[20];
-    int i, c = 0;
-    int l = strlen(a);
-    for (i = l - 1; i >= 0; i--)
-    {
-        b[c] = a[i];
-        c++;
-    }
-    puts(b);
-}
+// void strrev1(char a[])
+// {
+//     char b[20];
+//     int i, c = 0;
+//     int l = strlen(a);
+//     for (i = l - 1; i >= 0; i--)
+//     {
+//         b[c] = a[i];
+//         c++;
+//     }
+//     puts(b);
+// }
 
-int main()
-{
+// int main()
+// {
 
-    char a[20];
-    int i;
-    cout << "enter a string";
-    gets(a);
+//     char a[20];
+//     int i;
+//     cout << "enter a string";
+//     gets(a);
 
-    strrev1(a);
+//     strrev1(a);
 
-    return (0);
-}
+//     return (0);
+// }
+
