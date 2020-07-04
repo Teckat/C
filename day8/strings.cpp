@@ -145,27 +145,28 @@ using namespace std;
 //  * *
 // * * *
 
-int main()
-{
+// int main()
+// {
 
-    int i, j, k, row;
+//     int i, j, k, row;
 
-    cout << "enter no. of rows";
-    cin >> row;
+//     cout << "enter no. of rows";
+//     cin >> row;
 
-    for (i = 1; i <= row; i++)
-    {
+//     for (i = 1; i <= row; i++)
+//     {
 
-        for (j = row - 1; j >= i; j--)
-        {
-            cout << " ";
-        }
-        for (k = 1; k <= i; k++)
-        {
-            cout << "* ";
-        }
-        cout << endl;
-    }
+//         for (j = row - 1; j >= i; j--)
+//         {
+//             cout << " ";
+//         }
+//         for (k = 1; k <= i; k++)
+//         {
+//             cout << "* ";
+//         }
+//         cout << endl;
+//     }
 
-    return (0);
-}
+//     return (0);
+// }
+
